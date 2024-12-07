@@ -54,7 +54,7 @@ def part_2():
     if is_report_safe(report, 1) or is_report_safe(report_remove_curr_index, 0) or is_report_safe(report_remove_prev_index, 0):
       num_safe_reports += 1
 
-  print('Number of Safe Reports: ' + str(num_safe_reports))
+  print('Number of Safe Reports With Dampener = 1: ' + str(num_safe_reports))
 
 
 def main():
